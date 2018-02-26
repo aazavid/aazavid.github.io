@@ -148,7 +148,9 @@ h6, .h6 {
   margin-bottom: 20px;
   color: #999;
 }
-
+p{
+  text-indent: 1.5em; /* Отступ первой строки */
+}
 
 /*
  * Footer
