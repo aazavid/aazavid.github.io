@@ -104,7 +104,7 @@ h6, .h6 {
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
-  padding: 15px;
+  padding: 0  15px 15px;
   margin: 0 -15px 15px;
 }
 .sidebar-module-inset {
@@ -164,5 +164,5 @@ p{
   border-top: 1px solid #e5e5e5;
 }
 .foto {
-  margin-top: 20%;
+  margin-bottom: : 20%;
 }
