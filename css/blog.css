@@ -5,6 +5,24 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
+  
+
+}
+#font_bg
+{
+  position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+  background-image: url('../img/font.jpg');
+
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1, .h1,
@@ -19,7 +37,9 @@ h6, .h6 {
   color: #333;
 }
 
-
+nav{
+      background-color: #428bca!important;
+}
 /*
  * Override Bootstrap's default container.
  */
@@ -36,7 +56,7 @@ h6, .h6 {
  */
 
 .blog-masthead {
-  background-color: #428bca;
+  background-color: #428bca!important;
   box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
 
@@ -46,17 +66,17 @@ h6, .h6 {
   display: inline-block;
   padding: 10px;
   font-weight: 500;
-  color: #cdddeb;
+  color: #cdddeb!important;
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
-  color: #fff;
+  color: #fff!important;
   text-decoration: none;
 }
 
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
-  color: #fff;
+  color: #fff!important;
 }
 .blog-nav .active:after {
   position: absolute;
@@ -82,7 +102,7 @@ h6, .h6 {
   padding-bottom: 20px;
 }
 .blog-title {
-  margin-top: 30px;
+  margin-top: 10%;
   margin-bottom: 0;
   font-size: 60px;
   font-weight: normal;
@@ -165,4 +185,28 @@ p{
 }
 .foto {
   margin-bottom: : 20%;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
 }
