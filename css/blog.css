@@ -8,14 +8,26 @@ body {
   
 
 }
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
 #font_bg
 {
-  position: absolute;
+ position: absolute;
  min-height: 100%;
  min-width: 100%;
  left: 0;
  top: 0;
-  background-image: url('../img/font.jpg');
+ background-image: url('../img/font.jpg');
 
 
 
@@ -40,15 +52,8 @@ h6, .h6 {
 nav{
       background-color: #428bca!important;
 }
-/*
- * Override Bootstrap's default container.
- */
 
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
+
 
 
 /*
@@ -197,16 +202,55 @@ p{
 }
 .description{
     position: absolute;
-    top: 30%;
+    top: 10%;
     margin: auto;
     padding: 2em;
 }
 .description h1{
- color:#F97300 ;
+ color:#428bca!important;
 }
 .description p{
- color:#666;
+ color:#111;
  font-size: 20px;
- width: 50%;
+ width: 70%;
  line-height: 1.5;
+}
+.description hr{
+  color: rgba(244, 244, 244, 0.79);
+  background-color: rgba(244, 244, 244, 0.79);
+  width: 1%;
+}
+
+
+@media (max-width: 780px)  {
+  html {
+      -webkit-text-size-adjust: none;
+   }
+  .description {
+    margin-top: 15%;
+}
+  #font_bg
+{
+
+min-height: 200%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background-image: url('../img/font.jpg');
+
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+ position: absolute;
+ min-height: 200%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
 }
