@@ -2,7 +2,7 @@
 
 * Проверьте граммотность и пунктуацию
 * Если вы хотите добавить целую статью в какой либо раздел, то:
-  * воспользуйтесь [шаблоном](https://aazavid.github.io/articles/template_for_article.html)
+  * воспользуйтесь [шаблоном](https://github.com/aazavid/aazavid.github.io/blob/master/articles/template_for_article.html)
   * Заполните поле "Title" в разделе <head>
   * Заполните поле заголовок статьи "Title" в разделе <body>
   * Укажите дату, автора статьи и пользователя
