@@ -1,14 +1,12 @@
 User-agent: Googlebot
 Disallow: /articles/
-Disallow: /about
 Allow: /articles/engineering.html
 
 User-agent: Yandex
 Disallow: /articles/
-Disallow: /about
 Allow: /articles/engineering.html
 
 User-agent: *
 Allow: /
 
-#Sitemap: http://www.example.com/sitemap.xml
+Sitemap: https://aazavid.github.io/sitemap.xml
