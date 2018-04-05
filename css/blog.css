@@ -205,15 +205,23 @@ p{
     top: 10%;
     margin: auto;
     padding: 2em;
+
 }
 .description h1{
- color:#428bca!important;
+ color:#0d2438!important;
+ margin-bottom:2%;
 }
 .description p{
  color:#111;
  font-size: 20px;
- width: 70%;
+
+ padding:1%, 2%;
+ 
  line-height: 1.5;
+}
+.description a{
+  
+margin: 1%, 5%;
 }
 .description hr{
   color: rgba(244, 244, 244, 0.79);
@@ -252,5 +260,14 @@ min-height: 200%;
  left: 0;
  top: 0;
  background: rgba(244, 244, 244, 0.79);
+}
+}
+.panel{
+
+ 
+  /*background-color: rgba(244, 244, 244, 0.79); */
+  background-color: #94c6d4;
+  box-shadow:  10px 10px 0 rgba(0,0,0,.2);
+  margin-bottom: 3%;
 }
 
