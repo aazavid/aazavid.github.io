@@ -9,12 +9,17 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Anton Zavidonov</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link href="css/blog.css" rel="stylesheet">
 
-    <link href="font-Awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-Awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
     <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47238132 = new Ya.Metrika({ id:47238132, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47238132" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 
@@ -23,14 +28,20 @@
   </head>
 
   <body>
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    
 
-    <nav class="navbar navbar-default navbar-fixed-top blog-nav">
-      <div class="container"> 
-        <ul class="nav navbar-nav">
-        <li class="active"><span class="sr-only">(current)</span><a href="index.html">About me</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top blog-nav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Anton Zavidonov</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About me</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -39,32 +50,55 @@
               
 
           <div class="row" >
-            <div class="col-sm-8 blog-header">
+            <div class="col-md-8 blog-header">
               <h1 class="blog-title">About</h1>
         
             </div>
 
-          <div class="col-sm-8 blog-main">
+          <div class="col-md-8 blog-main">
           <div class="blog-post">
             
             <p>
-                I am the TeamLead C ++ in embeded. I love to be engaged in team development and process automation.
+              Engineering leader with 10+ years of experience in C++ (embedded, backend, desktop) and 3+ years of experience managing teams. 
+              I deliver from architecture through production, with a strong focus on reliability and execution. 
+              Completed product development training and applied it hands-on as a product founder—keen to own more product direction, trade-offs, and outcomes. 
+              AI enthusiast.
             </p>
-            <p>
-                Marathon runner, I like to run, bike, yoga, meditation. I like to swim in cold water, challenge myself and travel.
-            </p>
-            <p>
-                I develop and improve my planning system and harmonious development of all my areas of attention
-            </p>
+        
           </div><!-- /.blog-post -->
 
           <div class="blog-post">
             <h2 class="blog-post-title">Experience</h2>
             <hr>
-                <h3>DXC Technology, Luxoft<em> Senior Software Developer C++ - Sofia, Bulgaria - July 2023 — currently</em></h3>
+                <h3>WaysToTravel <em> PartTime CoFounder  - January 2026</em></h3>
                 <hr>
                 <ul>
-                    <li>Programming automotive software</li>                  
+                    <li>Founded and shipped an MVP AI travel discovery app that helps users find places for road trips and weekend travel. 
+                      Built the full web product in Next.js, deployed on Vercel, using Supabase (PostgreSQL + Auth) for data and user management. 
+                      This is where I actively practice product skills: problem framing, iteration planning, and shipping based on feedback.</li>                      
+                </ul>
+
+            <hr>
+            <hr>
+                <h3>DXC Technology, Luxoft<em> Lead C++, Automotive - Sofia, Bulgaria - January 2024 - currently</em></h3>
+                <hr>
+                <ul>
+                    <li>Implemented the bench testing process from scratch in 3 months, accelerated testing and bug fixing by 30 percent. </li> 
+                    <li>Set up an Ollama-based local LLM workflow to perform first-pass bug triage: summarize reports, extract reproduction steps, identify likely component ownership, and propose initial hypotheses.</li> 
+                    <li>Automated and optimized documentation generation in CI using Doxygen and an AI-assisted workflow to improve comment coverage and consistency.</li> 
+                    <li>Implemented processes to enhance transparency in tasks and invoices, achieving a 40% faster invoice approval rate.</li>  
+                    <li>Reviewed and developed architecture requirements, ensuring alignment with project goals and reducing implementation issues by 20%.</li>  
+                    <li>Recruited and onboarded a high-performing team of 2 professionals, reducing staffing gaps and accelerating project timelines by 15%.</li>                
+                </ul>
+
+            <hr>
+            <hr>
+                <h3>DXC Technology, Luxoft<em> Senior Software Developer C++, Automotive - Sofia, Bulgaria - July 2023 — January 2024</em></h3>
+                <hr>
+                <ul>
+                    <li>Write OTA agents on C++, Ethernet</li>   
+                    <li>Designed and implemented 10+ component tests in Python, increasing test coverage by 30% and reducing regression issues by 25% over six months. </li>
+                    <li>Resolved 25+ critical and high-priority bugs, reducing the defect density by 30% and improving system stability by a 25% decrease in production incidents.</li>               
                 </ul>
 
             <hr>
@@ -269,27 +303,25 @@
                 In my free time I study data science, I have the necessary knowledge in mathematics, marketing and analytics, I'm taking a course on the course on the basics of data science"<br />
             </p>
             <p>
-                I develop and improve my system of planning and harmonious development of all my areas of attention, publish articles on this topic and make technical translations of interesting articles to me.<br />
-            </p>
-            <p>Running, football, volleyball, skiing, hiking, I like traveling, reading books, spending time with my family and my child.<br/>
-            </p>
+              Marathon runner, I like to run, bike, yoga, meditation. I like to swim in cold water, challenge myself and travel. Reading books, spending time with my family and my child<br/>
+          </p>
           </div><!-- /.blog-post -->
 
         
 
         </div><!-- /.blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="col-md-3 offset-md-1 blog-sidebar">
 
           <div class="sidebar-module">
-                <img src="img/foto_high.jpg" class="img-responsive foto" >
+                <img src="img/foto_high.jpg" class="img-fluid foto" alt="Anton Zavidonov">
                 
                 <hr>  
                 <address>
 
                     <strong>Zavidonov Anton</strong><br>
                     <strong>Location: Sofia, Bulgaria</strong><br>
-                    <a href="mailto:#">anton_zavid@mail.ru</a><br>
+                    <a href="mailto:anton_zavid@mail.ru">anton_zavid@mail.ru</a><br>
                     <abbr title="Phone">P:</abbr> +359 876679725<br>
                     <p>C 12:00 до 16:00</p><br>
                     
@@ -298,12 +330,12 @@
                 <hr>
             <h4>Elsewhere</h4>
             <ol class="list-unstyled">
-              <li><a href="https://github.com/aazavid">GitHub</a></li>
-              <li><a  href="https://anton-zavidonov.livejournal.com/">My blog</a> <br /></li>
-              <li><a  href="https://vk.com/aazavid">VK</a></li>
-              <li><a href="https://www.facebook.com/anton.zavid">Facebook</a></li>
-              <li><a href="https://www.linkedin.com/in/antonzavidonov/">LinkedIn</a></li>
-              <li><a  href="https://nn.hh.ru/resume/e8c6541cff03133bc40039ed1f6b41577a6767">Link to resume HH</a></li>
+              <li><a href="https://github.com/aazavid"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+              <li><a href="https://anton-zavidonov.livejournal.com/"><i class="fa fa-pencil" aria-hidden="true"></i> My blog</a></li>
+              <li><a href="https://vk.com/aazavid"><i class="fa fa-vk" aria-hidden="true"></i> VK</a></li>
+              <li><a href="https://www.facebook.com/anton.zavid"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/antonzavidonov/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+              <li><a href="https://nn.hh.ru/resume/e8c6541cff03133bc40039ed1f6b41577a6767"><i class="fa fa-briefcase" aria-hidden="true"></i> Resume HH</a></li>
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->
@@ -314,52 +346,32 @@
    
 
    <div class="blog-footer">
-      
+      <small>Anton Zavidonov · Sofia, Bulgaria</small>
     </div>
-  
 
+    <a href="#content" class="button-up" id="buttonUp" aria-label="Наверх">
+      <span class="label-text">Наверх</span>
+      <span aria-hidden="true">↑</span>
+    </a>
 
-   <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+   <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
-        $(document).ready(function() {
- 
-            $('body').append('<div class="button-up" style="display: none;opacity: 0.7;width: 100px;height:100%;position: fixed;left: 0px;top: 0px;cursor: pointer;text-align: center;line-height: 100px;color: #45688E;"><div style="position: fixed;top: 90%; padding-left: 5px;">^ Наверх</div></div>');
- 
-            $ (window).scroll (function () {
-                if ($ (this).scrollTop () > 200) {
-                  $ ('.button-up').fadeIn();
-                } else {
-                  $ ('.button-up').fadeOut();
-                }
-            });
- 
-            $('.button-up').click(function(){
-            
-                $('body,html').animate({
-                  scrollTop: 0
-                }, 100);
-                return false;
-            });
- 
-            $('.button-up').hover(function() {
+      (function () {
+        var button = document.getElementById('buttonUp');
+        if (!button) return;
 
-              $(this).animate({
-               'opacity':'1',
-              }).css({'background-color':'#E1E7ED','color':'#45688E'});
-            }, function(){
+        function toggleVisible() {
+          if (window.scrollY > 200) {
+            button.classList.add('is-visible');
+          } else {
+            button.classList.remove('is-visible');
+          }
+        }
 
-                $(this).animate({
-                  'opacity':'0.7'
-                }).css({'background':'none','color':'#45688E'});;
-            });
- 
-        });
-    </script> 
+        window.addEventListener('scroll', toggleVisible, { passive: true });
+        toggleVisible();
+      })();
+    </script>
   </body>
 </html>
