@@ -283,17 +283,20 @@ summary:focus-visible {
 
 .hero-photo {
   justify-self: center;
+  align-self: center;
   width: min(100%, 320px);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
 }
 
 .hero-photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 1;
+  height: 100%;
   object-fit: cover;
-  object-position: center center;
-  border-radius: var(--radius-lg);
-  background: var(--color-surface);
+  object-position: center 20%;
 }
 
 @media (min-width: 900px) {
@@ -643,6 +646,7 @@ summary:focus-visible {
   .hero-photo {
     order: -1;
     width: min(100%, 260px);
+    aspect-ratio: 1 / 1;
   }
 
   .featured-card,
