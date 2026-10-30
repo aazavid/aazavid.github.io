@@ -185,6 +185,47 @@ summary:focus-visible {
   filter: brightness(0) invert(1);
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  margin-left: var(--space-sm);
+  padding: 0.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+}
+
+.lang-option {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+  color: var(--color-nav-text) !important;
+}
+
+.lang-option.is-active {
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.lang-option:not(.is-active):hover,
+.lang-option:not(.is-active):focus-visible {
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 991.98px) {
+  .lang-switch {
+    margin: var(--space-sm) 0 0;
+  }
+}
+
 /*
  * Layout sections
  */
